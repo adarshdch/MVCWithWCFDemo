@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="75a0f4b2-e6fe-4f8f-b5bf-fd3018615f22" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/WCFServiceDemo/CalculatorService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CalculatorService.xsd" MetadataType="Schema" ID="fb16f47a-fe96-46d2-997c-3a4975ae3b32" SourceId="1" SourceUrl="http://localhost/WCFServiceDemo/CalculatorService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CalculatorService1.xsd" MetadataType="Schema" ID="fdd36953-54c2-4ebf-93f2-e867a7118964" SourceId="1" SourceUrl="http://localhost/WCFServiceDemo/CalculatorService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CalculatorService2.xsd" MetadataType="Schema" ID="dcbceea5-877b-4b46-be65-9208b3b467fb" SourceId="1" SourceUrl="http://localhost/WCFServiceDemo/CalculatorService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CalculatorService.disco" MetadataType="Disco" ID="5b37d8dd-e69e-4a6e-9d6a-779bb5edce10" SourceId="1" SourceUrl="http://localhost/WCFServiceDemo/CalculatorService.svc?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="e8226678-f4c5-4fda-8d27-531fe3f7ebb1" SourceId="1" SourceUrl="http://localhost/WCFServiceDemo/CalculatorService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
